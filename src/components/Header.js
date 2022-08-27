@@ -1,6 +1,11 @@
+import NavigationBar from "./NavigationBar"
+
 const Header = () => {
   return (
-    <h1>Chickisaw Point, SC</h1>
+    <div className="header">
+        <h1>Chickisaw Point, SC</h1>
+        <NavigationBar/>
+    </div>
   )
 }
 
